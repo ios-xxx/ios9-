@@ -15,6 +15,10 @@
 		892831B01D3DBAFC00DE2981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892831AE1D3DBAFC00DE2981 /* LaunchScreen.storyboard */; };
 		892831BB1D3DBAFD00DE2981 /* ios9_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892831BA1D3DBAFD00DE2981 /* ios9_____Tests.m */; };
 		892831C61D3DBAFD00DE2981 /* ios9_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892831C51D3DBAFD00DE2981 /* ios9_____UITests.m */; };
+		892831D51D3DBB1B00DE2981 /* Lanuage.m in Sources */ = {isa = PBXBuildFile; fileRef = 892831D41D3DBB1B00DE2981 /* Lanuage.m */; };
+		892831D81D3DBB2E00DE2981 /* Java.m in Sources */ = {isa = PBXBuildFile; fileRef = 892831D71D3DBB2E00DE2981 /* Java.m */; };
+		892831DB1D3DBB3700DE2981 /* iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 892831DA1D3DBB3700DE2981 /* iOS.m */; };
+		896101201D3DCC6D009C5E9D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961011F1D3DCC6D009C5E9D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		892831C11D3DBAFD00DE2981 /* ios9新特性泛型UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios9新特性泛型UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		892831C51D3DBAFD00DE2981 /* ios9_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ios9_____UITests.m"; sourceTree = "<group>"; };
 		892831C71D3DBAFD00DE2981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892831D31D3DBB1B00DE2981 /* Lanuage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lanuage.h; sourceTree = "<group>"; };
+		892831D41D3DBB1B00DE2981 /* Lanuage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lanuage.m; sourceTree = "<group>"; };
+		892831D61D3DBB2E00DE2981 /* Java.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Java.h; sourceTree = "<group>"; };
+		892831D71D3DBB2E00DE2981 /* Java.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Java.m; sourceTree = "<group>"; };
+		892831D91D3DBB3700DE2981 /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS.h; sourceTree = "<group>"; };
+		892831DA1D3DBB3700DE2981 /* iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS.m; sourceTree = "<group>"; };
+		8961011E1D3DCC6D009C5E9D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8961011F1D3DCC6D009C5E9D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				892831A41D3DBAFC00DE2981 /* AppDelegate.m */,
 				892831A61D3DBAFC00DE2981 /* ViewController.h */,
 				892831A71D3DBAFC00DE2981 /* ViewController.m */,
+				8961011E1D3DCC6D009C5E9D /* Person.h */,
+				8961011F1D3DCC6D009C5E9D /* Person.m */,
+				892831D31D3DBB1B00DE2981 /* Lanuage.h */,
+				892831D41D3DBB1B00DE2981 /* Lanuage.m */,
+				892831D61D3DBB2E00DE2981 /* Java.h */,
+				892831D71D3DBB2E00DE2981 /* Java.m */,
+				892831D91D3DBB3700DE2981 /* iOS.h */,
+				892831DA1D3DBB3700DE2981 /* iOS.m */,
 				892831A91D3DBAFC00DE2981 /* Main.storyboard */,
 				892831AC1D3DBAFC00DE2981 /* Assets.xcassets */,
 				892831AE1D3DBAFC00DE2981 /* LaunchScreen.storyboard */,
@@ -270,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892831D81D3DBB2E00DE2981 /* Java.m in Sources */,
 				892831A81D3DBAFC00DE2981 /* ViewController.m in Sources */,
+				896101201D3DCC6D009C5E9D /* Person.m in Sources */,
+				892831D51D3DBB1B00DE2981 /* Lanuage.m in Sources */,
+				892831DB1D3DBB3700DE2981 /* iOS.m in Sources */,
 				892831A51D3DBAFC00DE2981 /* AppDelegate.m in Sources */,
 				892831A21D3DBAFC00DE2981 /* main.m in Sources */,
 			);
@@ -498,6 +522,7 @@
 				892831CC1D3DBAFD00DE2981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		892831CD1D3DBAFD00DE2981 /* Build configuration list for PBXNativeTarget "ios9新特性泛型Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				892831CF1D3DBAFD00DE2981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		892831D01D3DBAFD00DE2981 /* Build configuration list for PBXNativeTarget "ios9新特性泛型UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				892831D21D3DBAFD00DE2981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
